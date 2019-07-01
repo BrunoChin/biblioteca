@@ -1,9 +1,11 @@
 package edu.br.biblioteca.modelo;
 
 public class Livro {
+	
 	private String titulo;
 	private int numPaginas;
 	private String autor;
+	private String editora;
 	
 	public Livro() {
 		super();
@@ -16,12 +18,15 @@ public class Livro {
 		this.autor = autor;
 	}
 
-	public String getTitula() {
+	
+	public String getTitulo() {
 		return titulo;
 	}
-	public void setTitula(String titula) {
-		this.titulo = titula;
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
 	}
+
 	public int getNumPaginas() {
 		return numPaginas;
 	}
@@ -34,4 +39,14 @@ public class Livro {
 	public void setAutor(String autor) {
 		this.autor = autor;
 	}
+
+	public String getEditora() {
+		return editora;
+	}
+
+	public void setEditora(String editora) {
+		this.editora = editora;
+	}
+	
+
 }
