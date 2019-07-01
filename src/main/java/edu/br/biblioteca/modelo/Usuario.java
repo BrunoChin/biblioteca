@@ -15,6 +15,7 @@ public class Usuario {
 		super();
 		this.matricula = matricula;
 		this.email = email;
+		this.senha = "123456";
 	}
 
 	public String getMatricula() {
