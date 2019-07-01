@@ -8,6 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Usuario user = new Usuario("465", "ze@oi.com");
+        Livro livro = new Livro("Java", "tio");
+        System.out.println(user.getEmail());
+        System.out.println(user.getSenha());
     }
 }
